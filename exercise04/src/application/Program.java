@@ -8,6 +8,9 @@ public class Program {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("Enter with a phrase: ");
+        String phrase = sc.nextLine();
+        
 
         sc.close();
     }
