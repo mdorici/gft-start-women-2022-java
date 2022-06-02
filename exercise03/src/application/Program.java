@@ -16,8 +16,6 @@ public class Program {
         System.out.println("Enter with a symptom: ");
         String symptom = sc.nextLine();
 
-
-
         sc.close();
     }
 }

@@ -12,5 +12,4 @@ public class Disease {
     public Disease(List<String> symptom) {
         this.symptom = symptom;
     }
-
 }
