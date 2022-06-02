@@ -1,7 +1,7 @@
 package entities;
 
 public class LivingCreature {
-    private String breathe;
+    private static String breathe;
 
     public LivingCreature() {
     }
@@ -10,8 +10,8 @@ public class LivingCreature {
         this.breathe = breathe;
     }
 
-    public static void creature(Object LivingCreature) {
-        String breathe;
+    public static String creature(Object LivingCreature) {
+        return breathe;
     }
 
 }

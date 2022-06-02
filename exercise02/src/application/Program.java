@@ -19,9 +19,6 @@ public class Program {
         LivingCreature.creature(animal);
         LivingCreature.creature(vegetal);
 
-        
-
-
         sc.close();
     }
 }
